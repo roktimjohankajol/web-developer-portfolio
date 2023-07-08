@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+.primary-btn{
+    color: #fff;
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+header{
+    padding: 20px 0;
+}
+.logo-area h3{
+    font-size: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-area ul{
+    display: flex;
+    align-items: center;
+}
+.menu-area ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+.menu-area button{
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 20px;
+}
