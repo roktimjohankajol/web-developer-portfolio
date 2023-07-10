@@ -73,6 +73,10 @@ nav{
     color: #FD6E0A;
     margin-left: 10px;
 }
+.hero-section img{
+    margin-bottom: -5px;
+}
+
 
 /* About Section  */
 
@@ -155,4 +159,50 @@ nav{
     text-align: center;
     display: block; 
     margin: 0 auto;
+}
+
+
+/* Footer area  */
+
+footer{
+    background-color: #FFF8F3;
+    padding: 80px 0;
+}
+footer .row{
+    display: flex;
+    gap: 50px;
+    align-items: start;
+}
+.footer-left h3{
+    font-size: 2rem;
+
+}
+.footer-left p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 15px 0;
+}
+.footer-left img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    padding-left: 0;
+}
+.footer-right h3{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.footer-right input{
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.footer-right textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
 }
